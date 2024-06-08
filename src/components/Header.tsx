@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Menu from "./Menu";
 
 const Header = () => {
   return (
@@ -30,8 +31,7 @@ const Header = () => {
                     </a>
                   </div>
 
-                  {/* <Menu /> */}
-                  <h1>Menu</h1>
+                  <Menu />
                 </nav>
               </div>
             </div>
