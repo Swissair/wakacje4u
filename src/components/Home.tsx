@@ -16,7 +16,7 @@ const Home = () => {
   // for production
   const imageUrl = new URL("/images/hero_bg_lake_view_1.jpg", import.meta.url);
 
-  console.log(imageUrl);
+  // console.log(imageUrl);
 
   return (
     <>
