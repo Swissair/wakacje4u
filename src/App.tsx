@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Header from "./components/Header";
 // import assetImage from "/assets/images/hero_bg_3.jpg";
+import "./assets/css/style.css";
 
 function App() {
   //  const imageUrl = new URL("/src/assets/images/hero_bg_3.jpg", import.meta.url);
