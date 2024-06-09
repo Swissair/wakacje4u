@@ -4,7 +4,7 @@ import { pl } from "date-fns/locale";
 import { DateRange } from "react-date-range";
 import { IRange, toIsoRange } from "../models/Domain";
 import { getDaysWithinRange } from "../models/DateHelpers";
-import { isMobile } from "react-device-detect";
+// import { isMobile } from "react-device-detect";
 
 const StaySelector = () => {
   const [selectedRange, setSelectedRange] = useState([
@@ -63,7 +63,7 @@ const StaySelector = () => {
             minDate={new Date()}
             locale={pl}
             months={3}
-            direction={isMobile ? "vertical" : "horizontal"}
+            direction={"horizontal"} //{isMobile ? "vertical" : "horizontal"}
             editableDateInputs={false}
             // onChange={(item) => setState([item.selection])}
             onChange={(item) => setSelectedDates([item.selection as IRange])}
