@@ -36,9 +36,7 @@ const Home = () => {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <h1 className="mb-4">
-                Twoje miejsce wypoczynku nad morzem i jeziorem
-              </h1>
+              <h1 className="mb-4">Twój apartament nad morzem i jeziorem</h1>
               <p className="mb-5">Unieście, Sea & Lake, ul. Sosnowy Las 15</p>
               <p>
                 <Link to="/gallery" className="btn btn-primary px-5 py-3">
