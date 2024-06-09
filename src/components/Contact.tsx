@@ -41,7 +41,9 @@ const Contact = () => {
           <div className="row">
             <div className="p-4 mb-3 bg-white">
               <p className="mb-0 font-weight-bold text-black">Adres</p>
-              <p className="mb-4 text-black">Wakacje 4U Piotr Skirski</p>
+              <p className="text-black">Wakacje 4U Piotr Skirski</p>
+              <p className="text-black">ul. Sosnowy Las 15</p>
+              <p className="text-black">76-032 Unieście</p>
             </div>
 
             <div className="p-4 mb-3 bg-white">
