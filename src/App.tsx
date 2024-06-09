@@ -11,7 +11,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" Component={Home} />
+        <Route path="" Component={Home} />
         <Route path="/gallery" Component={Gallery} />
         <Route path="/contact" Component={Contact} />
       </Routes>
