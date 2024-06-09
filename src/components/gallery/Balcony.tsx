@@ -16,6 +16,14 @@ const Balcony = () => {
           <p> Rozkoszuj się kawą i lekturą słuchając śpiewu ptaków.</p>
         </div>
       </div>
+
+      <div className="col-lg-6">
+        <img
+          src="images/img_balcony_trees.jpg"
+          alt="Image"
+          className="img-fluid"
+        />
+      </div>
     </SiteSection>
   );
 };

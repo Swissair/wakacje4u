@@ -42,12 +42,34 @@ const StaySelector = () => {
       <div className="container">
         <div className="row">
           <div className="p-4 bg-white">
-            <h3 className="h5 text-black mb-3">Dostępne terminy</h3>
+            <h5 className="h5 text-black mb-3">Dostępne terminy</h5>
 
             <p className="mb-4 text-black">
               Terminy niedostępne są wyszarzone na poniższym kalendarzu. Obecnie
               nie możemy przyjąć pobytów krótszych niż 6 noclegów.
             </p>
+
+            <p className="mb-4 text-black">
+              Aby zerezerwować pobyt proszę o telefon, lub wysłanie emaila na
+              adres{" "}
+              <a
+                href="mailto:wakacje4u@gmail.com?subject=Rezerwacja apartamentu w Unieściu&body=Jestem zainteresowany wynajęciem apartamentu w terminie od ... do ..."
+                title="Rezerwacja apartamentu w Unieściu"
+              >
+                wakacje4u@gmail.com
+              </a>
+              .
+            </p>
+
+            <h5 className="h5 text-black mb-3">Cennik</h5>
+            <ul>
+              <li className="">czerwiec - 216 zł brutto za noc</li>
+              <li className="">lipiec i sierpień - 378 zł brutto za noc</li>
+              <li className="">wrzesień - 216 zł brutton za noc</li>
+              <li className="">
+                październik do końca kwietnia - 130 zł brutto za noc
+              </li>
+            </ul>
 
             {!isSelectionValid && (
               <p className="mb-4 text-black">
