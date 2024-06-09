@@ -5,6 +5,8 @@ const Menu = () => {
   const { pathname } = location;
   const splitLocation = pathname.split("/");
 
+  console.log("pathname: " + pathname);
+
   return (
     <ul className="site-menu js-clone-nav d-none d-lg-block">
       <li className={splitLocation[1] === "" ? "active" : ""}>
