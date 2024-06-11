@@ -6,12 +6,12 @@ import RoomPanorama from "./RoomPanorama";
 import Location from "./Location";
 import Sleeping from "./Sleeping";
 import CableTv from "./CableTv";
+import RoofTarace from "./RoofTarace";
 
 const Gallery = () => (
   <>
     <div
       className="site-blocks-cover inner-page-cover overlay"
-      // style="background-image: url('images/hero_bg_builiding_view_1.jpg');"
       style={{
         backgroundImage: `url("/images/hero_bg_builiding_view_1.jpg?url")`,
       }}
@@ -32,17 +32,13 @@ const Gallery = () => (
     </div>
 
     <RoomPanorama />
-
     <Sleeping />
-
     <Kitchen />
-
     <Bathroom />
-
     <Balcony />
-    {/* <RoofTarace /> */}
     <ParkingLot />
     <CableTv />
+    <RoofTarace />
     <Location />
   </>
 );

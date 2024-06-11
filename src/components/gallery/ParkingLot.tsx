@@ -13,7 +13,10 @@ const ParkingLot = () => {
           <div className="col-lg-6">
             <div className="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
               <h2 className="mb-5">Miejsce parkingowe</h2>
-              <p>Do apartamentu przynależy miejsce parkingowe.</p>
+              <p>
+                Do apartamentu przynależy miejsce parkingowe, które udostępniamy
+                w cenie wynajmu apartamentu.
+              </p>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ const StaySelector = () => {
       key: "selection",
     })
   );
-  const minStay = useState<number>(6);
+  const minStay = useState<number>(5);
 
   const [isSelectionValid, setIsSelectionValid] = useState<boolean>(true);
 
@@ -46,8 +46,30 @@ const StaySelector = () => {
 
             <p className="mb-4 text-black">
               Terminy niedostępne są wyszarzone na poniższym kalendarzu. Obecnie
-              nie możemy przyjąć pobytów krótszych niż 6 noclegów.
+              nie możemy przyjąć pobytów krótszych niż 5 noclegów.
             </p>
+            <p>
+              W dniu przyjazdu, jeżeli nie ustalono indywidualnie, apartament
+              gotowy jest do przyjecia gości od godziny 16.
+            </p>
+            <p>
+              Jeżeli nie ustalono indywidualnie, apartament musi być opuszczony
+              do godziny 11.
+            </p>
+            <p>
+              Opłata rezerwacyjna: 20% całości kwoty należnej za cały pobyt do
+              zapłaty w dniu dokonania rezerwacji. Całość za pobyt do zapłaty do
+              5 dni przed pobytem. Bezpłatne anulowanie rezerwacji możliwe do 5
+              dni przed rozpoczęciem pobytu.
+            </p>
+            <p>
+              Pobieramy 300 złotych depozytu na poczet pokrycia ewentualnych
+              szkód.
+            </p>
+
+            <a href="files/Wakacje4U_Polityka_Prywatnosci.pdf" target="_blank">
+              Polityka prywatności.
+            </a>
 
             <p className="mb-4 text-black">
               Aby zerezerwować pobyt proszę o telefon, lub wysłanie emaila na

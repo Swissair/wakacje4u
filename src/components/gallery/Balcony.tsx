@@ -13,7 +13,11 @@ const Balcony = () => {
             Przestronny balkon z widokiem na brzozowy las i częściowym widokiem
             na jezioro Jamno.
           </p>
-          <p> Rozkoszuj się kawą i lekturą słuchając śpiewu ptaków.</p>
+          <p>
+            {" "}
+            Zrelaksuj się w wygodnym fotelu, rozkoszuj się kawą i lekturą
+            słuchając śpiewu ptaków lub zjedz posiłek na świeżym poowietrzu.
+          </p>
         </div>
       </div>
 

@@ -20,6 +20,7 @@ const Bathroom = () => {
               deszczownicą.
             </p>
             <p>W zabudowie znajduje się pralka</p>
+            <p>Zapewniamy ręczniki i suszarkę</p>
           </div>
         </div>
 

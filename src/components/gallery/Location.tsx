@@ -24,6 +24,9 @@ const Location = () => {
                 </a>
                 .
               </p>
+              <p>
+                W pobliskim porcie morskim są liczne smażalnie i wędzarnie ryb.
+              </p>
             </div>
           </div>
         </div>

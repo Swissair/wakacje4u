@@ -8,7 +8,10 @@ const CableTv = () => {
           </div>
           <div className="col-lg-6">
             <div className="site-section-heading text-center mb-5 w-border col-md-6 mx-auto">
-              <h2 className="mb-5">Kablówka</h2>
+              <h2 className="mb-5"> Wi-Fi i Kablówka</h2>
+              <p>
+                Darmowe Wi-Fi umożliwia relaks z Netflixem lub pracę zdalną.
+              </p>
               <p>
                 Apartament wyposażony jest w 65 calowy telewizor z około 110
                 kanałami TV.
