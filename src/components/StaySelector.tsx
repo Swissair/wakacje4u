@@ -72,7 +72,7 @@ const StaySelector = () => {
             </a>
 
             <p className="mb-4 text-black">
-              Aby zerezerwować pobyt proszę o telefon, lub wysłanie emaila na
+              Aby zerezerwować pobyt proszę o telefon lub wysłanie emaila na
               adres{" "}
               <a
                 href="mailto:wakacje4u@gmail.com?subject=Rezerwacja apartamentu w Unieściu&body=Jestem zainteresowany wynajęciem apartamentu w terminie od ... do ..."
@@ -85,11 +85,11 @@ const StaySelector = () => {
 
             <h5 className="h5 text-black mb-3">Cennik</h5>
             <ul>
-              <li className="">czerwiec - 216 zł brutto za noc</li>
-              <li className="">lipiec i sierpień - 378 zł brutto za noc</li>
-              <li className="">wrzesień - 216 zł brutton za noc</li>
+              <li className="">czerwiec  2024 - 240 zł brutto za noc</li>
+              <li className="">lipiec i sierpień 2024 - 390 zł brutto za noc</li>
+              <li className="">wrzesień 2024 - 240 zł brutton za noc</li>
               <li className="">
-                październik do końca kwietnia - 130 zł brutto za noc
+                Późniejsze terminy są jeszcze niedostępne.
               </li>
             </ul>
 
