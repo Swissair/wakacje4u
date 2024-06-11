@@ -1,6 +1,14 @@
+import DashedUnorderedList from "../common/DashedUnorderedList";
 import SiteSection from "../common/SiteSection";
 
 const Kitchen = () => {
+  const kitchenUtensils: string[] = [
+    "Czajnik elektryczny",
+    "Talerze",
+    "Sztućce",
+    "Szklanki, kubki, kieliszki i lampki do wina",
+  ];
+
   return (
     <SiteSection>
       <div className="col-lg-6">
@@ -24,13 +32,8 @@ const Kitchen = () => {
               className="list-unstyled"
               style={{ textAlign: "left" }}
               title="Dodatkowe wyposażenie"
-            >
-              <li>Czajnik elektryczny</li>
-              <li>Talerze</li>
-              <li>Sztućce</li>
-              <li>Szklanki, kubki, kieliszki i lampki do wina</li>
-              <li>Garnki, patelnie, miski i inne przybory do gotowania</li>
-            </ul>
+            ></ul>
+            <DashedUnorderedList listItems={kitchenUtensils} />
           </p>
         </div>
       </div>
