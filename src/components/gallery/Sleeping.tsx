@@ -16,7 +16,7 @@ const Sleeping = () => {
               <h2 className="mb-5">Spanie</h2>
               <p>
                 Apartament zapewnia spanie na komfortowym dwuosobowym łóżku o
-                szerokości 160 cm oraz wygodnej, rozkłądanej i wyposażonej we
+                szerokości 160 cm oraz wygodnej, rozkładanej i wyposażonej we
                 włoski stelaż sofie. Sofa ma 140 cm szerokości.
               </p>
             </div>
