@@ -7,7 +7,7 @@ import { getDaysWithinRange } from "../models/DateHelpers";
 import { isMobile } from "react-device-detect";
 
 const StaySelector = () => {
-  const [selectedRange, setSelectedRange] = useState([
+  const [selectedRange, setSelectedRange] = useState<IRange[]>([
     // {
     //   startDate: null, //new Date(),
     //   endDate: null,// addDays(new Date(), 1),
@@ -28,6 +28,10 @@ const StaySelector = () => {
 
   const setSelectedDates = (ranges: IRange[]) => {
     const range = ranges[0];
+
+    if(range.startDate === null || range.endDate === null)
+      {return;}
+
     const daysWithinSelectedRange = getDaysWithinRange(range);
     if (daysWithinSelectedRange.length < minStay[0]) {
       setIsSelectionValid(false);
