@@ -16,7 +16,7 @@ const Balcony = () => {
           <p>
             {" "}
             Zrelaksuj się w wygodnym fotelu, rozkoszuj się kawą i lekturą
-            słuchając śpiewu ptaków lub zjedz posiłek na świeżym poowietrzu.
+            słuchając śpiewu ptaków lub zjedz posiłek na świeżym powietrzu.
           </p>
         </div>
       </div>
