@@ -7,6 +7,7 @@ const Kitchen = () => {
     "Talerze",
     "Sztućce",
     "Szklanki, kubki, kieliszki i lampki do wina",
+    "Garnki, patelnie, miski i inne przybory do gotowania"
   ];
 
   return (

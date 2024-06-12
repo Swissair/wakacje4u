@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { addDays } from "date-fns";
+// import { addDays } from "date-fns";
 import { pl } from "date-fns/locale";
 import { DateRange } from "react-date-range";
 import { IRange, toIsoRange } from "../models/Domain";
@@ -8,11 +8,11 @@ import { isMobile } from "react-device-detect";
 
 const StaySelector = () => {
   const [selectedRange, setSelectedRange] = useState([
-    {
-      startDate: new Date(),
-      endDate: addDays(new Date(), 1),
-      key: "selection",
-    },
+    // {
+    //   startDate: null, //new Date(),
+    //   endDate: null,// addDays(new Date(), 1),
+    //   key: "selection",
+    // },
   ]);
 
   const [unavailableDates] = useState<Date[]>(
