@@ -4,8 +4,8 @@ export interface ApiResponse<T> {
 }
 
 export interface IRange {
-  startDate: Date;
-  endDate: Date;
+  startDate?: Date;
+  endDate?: Date;
   key: string;
 }
 
@@ -23,8 +23,9 @@ export interface Enquiry {
 }
 
 export const toIsoRange = (inputRange: IRange): IRange => {
-  const start = new Date(inputRange.startDate.toISOString());
-  const end = new Date(inputRange.endDate.toISOString());
+
+  const start = inputRange.startDate != null ? new Date(inputRange.startDate.toISOString()) : undefined;
+  const end = inputRange.endDate != null ? new Date(inputRange.endDate.toISOString()) : undefined;
 
   return { startDate: start, endDate: end, key: inputRange.key };
 };
