@@ -87,7 +87,7 @@ const StaySelector = () => {
               .
             </p>
 
-            <h5 className="h5 text-black mb-3">Cennik</h5>
+            {/* <h5 className="h5 text-black mb-3">Cennik</h5>
             <ul>
               <li className="">czerwiec  2024 - 240 zł brutto za noc</li>
               <li className="">lipiec i sierpień 2024 - 390 zł brutto za noc</li>
@@ -102,10 +102,10 @@ const StaySelector = () => {
                 Wybrany okres jest krótszy niż minimalny czas pobytu -{" "}
                 {minStay[0]} dni
               </p>
-            )}
+            )} */}
           </div>
 
-          <DateRange
+          {/* <DateRange
             dateDisplayFormat={"d MMMM yyyy"}
             disabledDates={unavailableDates}
             minDate={new Date()}
@@ -117,7 +117,7 @@ const StaySelector = () => {
             onChange={(item) => setSelectedDates([item.selection as IRange])}
             moveRangeOnFirstSelection={false}
             ranges={selectedRange}
-          />
+          /> */}
         </div>
       </div>
     </div>
