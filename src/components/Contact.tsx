@@ -1,6 +1,3 @@
-import "react-date-range/dist/styles.css"; // main style file
-import "react-date-range/dist/theme/default.css"; // theme css file
-import StaySelector from "./StaySelector";
 
 const Contact = () => {
   const imageUrl = new URL("/images/hero_bg_boats_1b.jpg", import.meta.url);
@@ -23,13 +20,10 @@ const Contact = () => {
               data-aos-delay="400"
             >
               <h1 className="text-white">Skontaktuj się</h1>
-              <p>Sprawdź dostępność apartamentu i zarezerwuj pobyt</p>
             </div>
           </div>
         </div>
       </div>
-
-      <StaySelector />
 
       <div className="site-section-sm border-bottom">
         <div className="container">
